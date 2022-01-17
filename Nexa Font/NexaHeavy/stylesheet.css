@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nexa-Trial';
+    src: url('Nexa-Trial-Heavy.woff2') format('woff2'),
+        url('Nexa-Trial-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
