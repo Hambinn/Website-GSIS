@@ -1,5 +1,6 @@
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .navigation-clean {
@@ -207,8 +208,8 @@ body {
   background-color: rgba(74, 57, 120, 1);
   height: 3px;
   width: 120px;
-  margin-top: -34px;
   margin-left: initial;
+  margin-top: -6px;
 }
 
 #rana {
@@ -1422,7 +1423,7 @@ body {
 
 @media (min-width: 425px) {
   .jumbotron.scale {
-    height: 240px;
+    height: 265px;
   }
 }
 
@@ -1638,7 +1639,7 @@ body {
 
 @media (min-width: 425px) {
   #slideshow {
-    height: 330px;
+    height: 350px;
   }
 }
 
@@ -2146,5 +2147,9 @@ faq_text {
   #timercolumn {
     margin-bottom: 15px;
   }
+}
+
+#ssm-cont {
+  display: none;
 }
 
