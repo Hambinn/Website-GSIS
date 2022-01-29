@@ -197,10 +197,10 @@ body {
 
 #foto-speech {
   border-radius: 50%;
-  height: 240px;
-  width: 240px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
-  margin-top: 12px;
+  margin-top: -10px;
 }
 
 #blue-line1 {
