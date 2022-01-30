@@ -1354,10 +1354,6 @@ body {
   }
 }
 
-.simple-slider.container-me-slider {
-  height: 100%;
-}
-
 .swiper-container.swiper-me {
   height: 575px;
 }
@@ -1749,8 +1745,11 @@ body {
   width: 400px;
 }
 
-#me-wrapper {
-  height: 520px;
+@media (max-width: 767px) {
+  #me-wrapper {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -2151,5 +2150,24 @@ faq_text {
 
 #ssm-cont {
   display: none;
+}
+
+@media (max-width: 991px) {
+  #body-pre {
+    height: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-body.me-body {
+    height: 340px;
+  }
+}
+
+@media (min-width: 768px) {
+  #me-wrapper {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
 }
 
