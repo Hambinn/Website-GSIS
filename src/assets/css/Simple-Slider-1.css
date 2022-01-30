@@ -10,9 +10,3 @@
   }
 }
 
-@media (max-width:767px) {
-  .simple-slider .swiper-slide {
-    height: 360px;
-  }
-}
-

@@ -36,11 +36,16 @@ $(function(){
     var swiperFaq = new Swiper ('.swiper-faq', {
         slidesPerView: "auto",
         spaceBetween: 30,
-        pagination: '.swiper-pagination',
+        pagination: '.swiper-pagination-faq',
         paginationClickable: true,
         autoHeight: true,        
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        loop: true,
+        loop: true,        
     });
+
 });
+
+swiperFaq.on('slideChange', function(){
+    console.log('slideChange');
+})
