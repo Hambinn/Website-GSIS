@@ -330,10 +330,16 @@ body {
   width: 700px;
   height: 110px;
   background: rgba(255, 255, 255, 0.3);
+}
+
+#acara-15 {
+  width: 100%;
+  max-width: 700px;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 36.5016px 40px rgba(0, 0, 0, 0.0482987);
   backdrop-filter: blur(50px);
   border-radius: 33px;
-  padding-left: 100px;
 }
 
 #acara-2 {
@@ -1024,24 +1030,26 @@ body {
   border-radius: 0px 0px 40px 40px;
   backdrop-filter: blur(4px);
   border-left-style: solid;
-  border-left-color: #ffffff;
+  border-left-color: rgba(220,220,221);
   border-right-style: solid;
-  border-right-color: #ffffff;
+  border-right-color: rgba(220,220,221);
   border-bottom-style: solid;
-  border-bottom-color: #ffffff;
-  border-width: 2px;
+  border-bottom-color: rgba(220,220,221);
+  border-top-style: solid;
+  border-top-color: rgba(220,220,221);
+  border-width: 1px;
 }
 
 .card-header.me-header {
   border-radius: 40px 40px 0px 0px;
   background: radial-gradient(147.06% 2395.72% at 92.08% -17.65%, #FFFFFF 0%, #EFE492 23.3%, #FFC500 100%);
   border-left-style: solid;
-  border-left-color: #ffffff;
+  border-left-color: rgba(220,220,221);
   border-right-style: solid;
-  border-right-color: #ffffff;
+  border-right-color: rgba(220,220,221);
   border-top-style: solid;
-  border-top-color: #ffffff;
-  border-width: 2px;
+  border-top-color: rgba(220,220,221);
+  border-width: 1px;
   border-bottom-style: none;
 }
 
@@ -2099,6 +2107,8 @@ faq_text {
 #eventhead-TL {
   font-size: 15px;
   margin-bottom: 5px;
+  height: fit-content;
+  width: 100%;
 }
 
 #eventdate-TL {
@@ -2127,7 +2137,7 @@ faq_text {
 
 @media (max-width: 575px) {
   #TL4-indiv {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -2189,5 +2199,55 @@ faq_text {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
+}
+
+@media (max-width: 767px) {
+  #throwback-hr {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  #throwback-h1 {
+    font-size: 25px;
+  }
+}
+
+.col-xl-1.orangecircle {
+  width: 700px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 36.5016px 40px rgba(0, 0, 0, 0.0482987);
+  backdrop-filter: blur(50px);
+  border-top-left-radius: 33px;
+  border-bottom-left-radius: 33px;
+}
+
+#TL2-instagram {
+  font-size: 20px;
+}
+
+#TL3-takeover {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 768px) {
+  #TL4-indiv {
+    font-size: 20px;
+  }
+}
+
+#TL5-online {
+  font-size: 19px;
+}
+
+#TL6-team {
+  font-size: 19px;
 }
 
