@@ -9,3 +9,7 @@ var $faqContainer = $('#faq-container');
 $faqContainer.on('show.bs.collapse','.collapse', function() {
     $faqContainer.find('.collapse.in').collapse('hide');
 });
+
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
