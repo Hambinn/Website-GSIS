@@ -2231,7 +2231,7 @@ faq_text {
   font-size: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   span {
     font-size: 11px;
   }
