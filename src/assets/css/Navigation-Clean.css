@@ -2231,13 +2231,13 @@ faq_text {
   font-size: 20px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   span {
     font-size: 11px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 575px) {
   #TL4-indiv {
     font-size: 20px;
   }
