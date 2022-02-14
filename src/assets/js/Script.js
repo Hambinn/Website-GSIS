@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 14, 2022 13:00:00").getTime(); // set date dulu
+var countDownDate = new Date("Feb 16, 2022 13:00:00").getTime(); // set date dulu
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance = countDownDate - now;
