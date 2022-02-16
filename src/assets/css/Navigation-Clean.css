@@ -163,7 +163,7 @@ html, body {
   width: 150px;
   height: 50px;
   border-radius: 35px;
-  background: linear-gradient(266.85deg, #F2F2F0 -25.76%, #9288AB 75.61%);
+  background: linear-gradient(266.85deg, #ED6010 -25.76%, #4A3978 75.61%);
   border-radius: 35px;
 }
 
@@ -173,7 +173,7 @@ html, body {
 }
 
 #about-us {
-  margin-top: 200px;
+  margin-top: 30px;
 }
 
 .row.card-about-us {
@@ -2249,5 +2249,9 @@ faq_text {
 
 #TL6-team {
   font-size: 19px;
+}
+
+#count-down {
+  display: none;
 }
 
