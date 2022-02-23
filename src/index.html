@@ -64,11 +64,16 @@
     </div>
     <div class="text-center d-xl-flex flex-column align-items-xl-center" id="sub-title">
         <p style="font-family: 'Nexa Demo';">The biggest national innovation summit held by <br>Institut Teknologi
-            Bandung</p>
-        <p class="case-challenge" style="font-family: Nexa;color: var(--dark);font-size: 31px;"><strong>Case Challenge
-                is now open for registration!</strong><br></p><a href="#main-event"><button
-                class="btn btn-primary regist" type="button"
-                style="border-style: none;font-family: Nexa-Trial;"><strong>Register Now!</strong></button></a>
+            Bandung</p><a href="#main-event"></a>
+        <div class="container">
+            <div class="row d-flex d-sm-flex d-md-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-xl-center eventbutton"
+                style="padding-top: 14px;">
+                <div class="col-5 col-sm-5 col-md-4 col-lg-4 col-xl-3"><a href="#pre-event"><img id="registEvent"
+                            src="assets/img/RegistPreEvent.svg"></a></div>
+                <div class="col-5 col-sm-5 col-md-4 col-lg-4 col-xl-3"><a href="#main-event"><img id="registEvent"
+                            src="assets/img/RegistMainEvent.svg"></a></div>
+            </div>
+        </div>
     </div>
     <section id="count-down">
         <div class="container">
@@ -484,7 +489,7 @@
         <div class="container" id="academics-desktop">
             <div class="row">
                 <div class="col-lg-4 col-xl-4 card-group">
-                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0);border-style: none;">
+                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0.5);border-style: none;">
                         <div
                             class="card-header d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center me-header">
                             <img id="national-logo" src="assets/img/ME_1001.png">
@@ -507,7 +512,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4 card-group">
-                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0);border-style: none;">
+                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0.5);border-style: none;">
                         <div
                             class="card-header d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center me-header">
                             <img id="individual-logo" src="assets/img/Aca_1001.png">
@@ -530,7 +535,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4 card-group">
-                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0);border-style: none;">
+                    <div class="card me_thumbnail" style="background: rgba(255,255,255,0.5);border-style: none;">
                         <div class="card-header d-flex d-sm-flex d-xl-flex justify-content-start justify-content-sm-start justify-content-xl-start align-items-xl-center me-header"
                             id="me-header-teamup"><img id="team-logo" src="assets/img/Aca_1002.png">
                             <h2 id="thumbnail-aca" style="color: #4a3978;font-family: 'Nexa Demo';">Team-Up</h2>
@@ -561,7 +566,7 @@
                             <div id="me-wrapper" class="swiper-wrapper">
                                 <div class="swiper-slide card-group">
                                     <div class="card me_thumbnail"
-                                        style="background: rgba(255,255,255,0);border-style: none;">
+                                        style="background: rgba(255,255,255,0.5);border-style: none;">
                                         <div
                                             class="card-header d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center me-header">
                                             <img id="circle-image-irasuto-4" src="assets/img/ME_1001.png">
@@ -587,7 +592,7 @@
                                 </div>
                                 <div class="swiper-slide card-group">
                                     <div class="card me_thumbnail"
-                                        style="background: rgba(255,255,255,0);border-style: none;">
+                                        style="background: rgba(255,255,255,0.5);border-style: none;">
                                         <div
                                             class="card-header d-flex d-xl-flex justify-content-start justify-content-xl-start align-items-xl-center me-header">
                                             <img id="circle-image-irasuto" src="assets/img/Aca_1001.png">
@@ -615,7 +620,7 @@
                                 </div>
                                 <div class="swiper-slide card-group">
                                     <div class="card me_thumbnail"
-                                        style="background: rgba(255,255,255,0);border-style: none;">
+                                        style="background: rgba(255,255,255,0.5);border-style: none;">
                                         <div
                                             class="card-header d-flex d-sm-flex d-xl-flex justify-content-start justify-content-sm-start justify-content-xl-start align-items-xl-center me-header">
                                             <img id="circle-image-irasuto" src="assets/img/Aca_1002.png">
@@ -725,7 +730,8 @@
                     class="col-8 col-sm-9 col-md-10 d-flex d-sm-flex d-md-flex d-xl-flex align-items-sm-center align-items-xl-center">
                     <p id="eventhead-TL-3" style="font-family: Montserrat, sans-serif;"><strong>Main
                             Event</strong><br><span id="TL4-indiv"
-                            style="color: rgb(0,92,186);font-weight: bold;">Individual Challenge</span><br><br></p>
+                            style="color: rgb(0,92,186);font-weight: bold;">Individual Challenge</span><br><span
+                            style="color: rgb(108,117,125);">6 - 23 March 2022</span></p>
                 </div>
             </div>
         </div>
@@ -738,8 +744,8 @@
                 </div>
                 <div
                     class="col-8 col-sm-9 col-md-10 d-flex d-sm-flex d-md-flex d-xl-flex align-items-sm-center align-items-xl-center">
-                    <p id="eventhead-TL-4" style="font-family: Montserrat, sans-serif;">
-                        <strong>Pre-Event</strong><br><span id="TL5-online"
+                    <p id="eventhead-TL-4" style="font-family: Montserrat, sans-serif;"><strong>Main
+                            Event</strong><br><span id="TL5-online"
                             style="color: rgb(0,92,186);font-weight: bold;">Online Conference</span><br><span
                             style="color: rgb(108,117,125);">2 April 2022</span><br></p>
                 </div>
@@ -754,8 +760,8 @@
                 </div>
                 <div
                     class="col-8 col-sm-9 col-md-10 d-flex d-sm-flex d-md-flex d-xl-flex align-items-sm-center align-items-xl-center">
-                    <p id="eventhead-TL-5" style="font-family: Montserrat, sans-serif;">
-                        <strong>Pre-Event</strong><br><span id="TL6-team"
+                    <p id="eventhead-TL-5" style="font-family: Montserrat, sans-serif;"><strong>Main
+                            Event</strong><br><span id="TL6-team"
                             style="color: rgb(0,92,186);font-weight: bold;">Team-Up Challenge</span><br><span
                             style="color: rgb(108,117,125);">3 April 2022</span><br></p>
                 </div>
@@ -1708,7 +1714,7 @@
                             <a href="https://www.linkedin.com/company/ganesha-student-innovation-summit/mycompany/" target="_blank">
                             <img id="linkedin"src="assets/img/Group%2087.png"></div>
                             </a>    
-                    </div>
+                        </div>
                 </div>
             </div>
         </footer>

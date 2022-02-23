@@ -2254,3 +2254,27 @@ faq_text {
   display: none;
 }
 
+@media (min-width: 300px) {
+  #registEvent {
+    height: 145px;
+  }
+}
+
+@media (min-width: 576px) {
+  #registEvent {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  #registEvent {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  #registEvent {
+    height: 350px;
+  }
+}
+
