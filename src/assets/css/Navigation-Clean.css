@@ -2159,7 +2159,7 @@ faq_text {
 }
 
 #ssm-cont {
-  display: none;
+  display: initial;
 }
 
 @media (max-width: 991px) {
@@ -2275,6 +2275,150 @@ faq_text {
 @media (min-width: 992px) {
   #registEvent {
     height: 350px;
+  }
+}
+
+@media (min-width: 300px) {
+  #medpar_firstRow {
+    height: 38px;
+  }
+}
+
+@media (min-width: 576px) {
+  #medpar_firstRow {
+    height: 71px;
+  }
+}
+
+@media (min-width: 768px) {
+  #medpar_firstRow {
+    height: 106px;
+  }
+}
+
+@media (min-width: 992px) {
+  #medpar_firstRow {
+    height: 152px;
+  }
+}
+
+@media (min-width: 300px) {
+  #sponsors {
+    height: 72px;
+  }
+}
+
+@media (min-width: 576px) {
+  #sponsors {
+    height: 110px;
+  }
+}
+
+@media (min-width: 768px) {
+  #sponsors {
+    height: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  #sponsors {
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sponsors {
+    height: 250px;
+  }
+}
+
+@media (min-width: 300px) {
+  #medpar_secRow {
+    height: 35px;
+  }
+}
+
+@media (min-width: 576px) {
+  #medpar_secRow {
+    height: 58px;
+  }
+}
+
+@media (min-width: 768px) {
+  #medpar_secRow {
+    height: 83px;
+  }
+}
+
+@media (min-width: 992px) {
+  #medpar_secRow {
+    height: 111px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #medpar_secRow {
+    height: 130px;
+  }
+}
+
+@media (min-width: 300px) {
+  #medpar_thirdRow {
+    height: 21px;
+  }
+}
+
+@media (min-width: 576px) {
+  #medpar_thirdRow {
+    height: 38px;
+  }
+}
+
+@media (min-width: 768px) {
+  #medpar_thirdRow {
+    height: 53px;
+  }
+}
+
+@media (min-width: 992px) {
+  #medpar_thirdRow {
+    height: 75px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #medpar_thirdRow {
+    height: 91px;
+  }
+}
+
+@media (min-width: 300px) {
+  #medpar_jumbotron {
+    margin-top: -72px;
+  }
+}
+
+@media (min-width: 300px) {
+  #supportedbyheading {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  #supportedbyheading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #supportedbyheading {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #supportedbyheading {
+    font-size: 28px;
   }
 }
 
