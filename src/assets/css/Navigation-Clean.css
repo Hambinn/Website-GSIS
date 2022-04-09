@@ -2301,7 +2301,7 @@ faq_text {
 
 @media (min-width: 300px) {
   #sponsors {
-    height: 72px;
+    height: 50px;
   }
 }
 
@@ -2325,7 +2325,7 @@ faq_text {
 
 @media (min-width: 1200px) {
   #sponsors {
-    height: 250px;
+    height: 170px;
   }
 }
 
@@ -2392,6 +2392,8 @@ faq_text {
 @media (min-width: 300px) {
   #medpar_jumbotron {
     margin-top: -72px;
+    color: rgba(33,37,41,0);
+    background: rgba(233,236,239,0);
   }
 }
 
@@ -2404,6 +2406,7 @@ faq_text {
 @media (min-width: 576px) {
   #supportedbyheading {
     font-size: 20px;
+    padding-top: 19px;
   }
 }
 
@@ -2416,18 +2419,20 @@ faq_text {
 @media (min-width: 1200px) {
   #supportedbyheading {
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 300px) {
   #sponsor_pgm {
-    height: 20px;
+    height: 21px;
   }
 }
 
 @media (min-width: 300px) {
   #sponsor_pupukpalembang {
-    height: 24px;
+    height: 28px;
   }
 }
 
@@ -2493,19 +2498,20 @@ faq_text {
 
 @media (min-width: 1200px) {
   #sponsor_pgm {
-    height: 79px;
+    height: 65px;
+    margin-right: 10px;
   }
 }
 
 @media (min-width: 1200px) {
   #sponsor_pupukpalembang {
-    height: 87px;
+    height: 95px;
   }
 }
 
 @media (min-width: 1200px) {
   #sponsor_pertamina {
-    height: 150px;
+    height: 160px;
   }
 }
 
@@ -2552,7 +2558,7 @@ faq_text {
 }
 
 #columnsponsor1 {
-  margin-bottom: -5px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 576px) {
@@ -2574,12 +2580,13 @@ faq_text {
 @media (min-width: 300px) {
   #sponsors4 {
     height: 36px;
+    margin-right: 15px;
   }
 }
 
 @media (min-width: 300px) {
   #columnsponsor4 {
-    margin-top: 25px;
+    margin-top: 20px;
   }
 }
 
@@ -2604,12 +2611,14 @@ faq_text {
 @media (min-width: 1200px) {
   #sponsors4 {
     height: 90px;
+    margin-right: 30px;
   }
 }
 
 @media (min-width: 300px) {
   #sponsors4_DNP {
     height: 20px;
+    margin-top: 11px;
   }
 }
 
@@ -2633,7 +2642,8 @@ faq_text {
 
 @media (min-width: 1200px) {
   #sponsors4_DNP {
-    height: 52px;
+    height: 55px;
+    margin-top: 20px;
   }
 }
 
@@ -2671,6 +2681,37 @@ faq_text {
   #sponsors_BNI {
     height: 60px;
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 300px) {
+  #sponsors_PJB {
+    height: 15px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sponsors_PJB {
+    height: 75px;
+  }
+}
+
+@media (min-width: 576px) {
+  #sponsors_PJB {
+    height: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #sponsors_PJB {
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #sponsors_PJB {
+    height: 60px;
   }
 }
 
